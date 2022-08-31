@@ -1,0 +1,1678 @@
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:36:23 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:36:23 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: book1,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:36:23 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:36:23 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: book1,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:36:23 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/1
+  changing in: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:36:23 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:40:12 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:40:12 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: ... und täglich grüßt das Murmeltier,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:40:12 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:44:09 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: ,
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:44:09 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:44:09 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: Alle Jahre wieder...,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:44:09 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: ,
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:49:46 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:49:46 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: Alle Jahre wieder...,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:49:46 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: Alle Jahre wieder...,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:49:46 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:49:46 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:49:46 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/9
+  Object: ... und täglich grüßt das Murmeltier,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:49:46 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/9
+  Object: ... und täglich grüßt das Murmeltier,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: book2,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/4
+  Object: Das etwas andere Märchenbuch,Franziska Gruber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/8
+  Object: ICH HAB KEINE LUST MEHR!,AAAAAAAAAAAHHHHHH
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/9
+  Object: ... und täglich grüßt das Murmeltier,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/5
+  Object: Creativity for Dummys,blah 5
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/9
+  Object: ... und täglich grüßt das Murmeltier,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/3
+  Object: book3,blah 3
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/5
+  Object: Creativity for Dummys,blah 5
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/9
+  Object: ... und täglich grüßt das Murmeltier,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/7
+  Object: book 7,Herold
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/5
+  Object: Creativity for Dummys,blah 5
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/5
+  Object: Creativity for Dummys,blah 5
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/5
+  Object: Creativity for Dummys,blah 5
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/8
+  Object: ICH HAB KEINE LUST MEHR!,AAAAAAAAAAAHHHHHH
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/5
+  Object: Creativity for Dummys,blah 5
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/8
+  Object: ICH HAB KEINE LUST MEHR!,AAAAAAAAAAAHHHHHH
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/8
+  Object: ICH HAB KEINE LUST MEHR!,AAAAAAAAAAAHHHHHH
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/8
+  Object: ICH HAB KEINE LUST MEHR!,AAAAAAAAAAAHHHHHH
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/4
+  Object: Das etwas andere Märchenbuch,Franziska Gruber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: book2,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: book2,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/2
+  changing in: book2,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: book2,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Tue Aug 30 2022 23:52:35 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/2
+  changing in: book2,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:13 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:13 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: book2,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:13 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:13 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Wie ich ein Fisch wurde...!,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:13 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/1
+  changing in: Buch 1,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:54 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:54 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Buch 1,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:54 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/1
+  changing in: Buch 100,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:54 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:54 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Buch 100,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:37:54 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/1
+  changing in: Buch 10,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:39:58 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:39:58 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Buch 10,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:39:58 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/1
+  changing in: Buch 100,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:39:58 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:39:58 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/1
+  Object: Buch 100,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:39:58 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/1
+  changing in: Buch 10,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:39:58 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:39:58 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: book 7,Herold
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: Buch 10,Johannes Huber der Zweite
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: ... und täglich grüßt das Murmeltier,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 10:39:58 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:02:06 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: book 6,Hubert
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:15:55 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:15:55 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: book2,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:15:55 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/2
+  changing in: Wie ich ein Fisch wurde...,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:15:55 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:22:18 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:22:18 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: Alle Jahre wieder...,Elisabeth Grafenberger
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:23:26 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:23:26 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: Noch ein neuer Versuch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:25:32 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:25:32 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: Noch ein neuer Versuch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/10
+  Object: Noch ein neuer Versuch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/11
+  changing in: test Buch1,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch1,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/11
+  changing in: test Buch 5,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: test Buch 5,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/11
+  changing in: test Buch1,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch1,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/11
+  changing in: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/10
+  Object: Noch ein neuer Versuch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/5
+  Object: Creativity for Dummys,blah 5
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:29:50 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde... von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/5
+  Object: Creativity for Dummys von blah 5
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde... von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde... von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde... von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/2
+  changing in: Wie ich ein Fisch wurde...!,Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Using: /books/delete 
+  deleted: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/3
+  Object: book3 von blah 3
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/3
+  Object: book3 von blah 3
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 11:49:01 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/5
+  Object: Creativity for Dummys von blah 5
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/11
+  changing in: test Buch dfghj,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/11
+  Object: test Buch dfghj von Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/2
+  changing in: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/update/11
+  changing in: test Buch,Simone Grübelhuber
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: yfghjklö von dfghjklöä
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/2
+  Object: Wie ich ein Fisch wurde...! von Frederik von Furchensumpf
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books/add 
+  Added new Book: yfghjklö von dfghjklöä
+
+Client IP-Adress: ::ffff:127.0.0.1
+  Date: Wed Aug 31 2022 14:59:59 GMT+0200 (Mitteleuropäische Sommerzeit)
+  Using: /books
+

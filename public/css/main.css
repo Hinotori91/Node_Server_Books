@@ -1,0 +1,89 @@
+:root {
+  --textColor: #DAC9C3;
+  --nichts: #BEA497;
+  --linienColor: #A3836C;
+  --buttonBackground: #7A634D;
+  --cardBackground: #4E4231;
+  --backgroundColor: #231E16;
+}
+
+* {
+  color: var(--textColor);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  display: flex;
+  justify-content: center;
+
+  margin: 2rem;
+}
+
+.card {
+  background-color: var(--cardBackground);
+  border-radius: 15px;
+  box-shadow: 1px 1px 90px black;
+
+  padding: 1.5rem;
+}
+
+#initialView th {
+  border-bottom: 2px solid var(--linienColor);
+
+  padding-bottom: 10px;
+}
+
+#initialView td {
+  padding: 5px 0.5rem;
+  border-bottom: 1px solid var(--linienColor);
+}
+
+button {
+  background-color: var(--buttonBackground);
+  border: none;
+  border-radius: 5px;
+
+  padding: 0.3rem;
+}
+
+#detailView div {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
+
+#detailView h3 {
+  margin: 10px 0;
+}
+
+#detailView button {
+  margin: 10px 0;
+}
+
+#addView {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#editView h3,
+#addView h3 {
+  margin: 10px 0;
+}
+
+#editWrapper,
+#addWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+input,
+textarea {
+  background-color: var(--backgroundColor);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 0.5rem;
+  margin: 5px;
+}
