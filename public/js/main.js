@@ -29,28 +29,38 @@ let newAuthor = $('#newAuthor');
 let newISBN = $('#newISBN');
 let newDescription = $('#newDescription');
 
+let tbody = $('#tbody');
 
 
-////   alle Bücher angezeigt bekommen -> Endpoint   ///
-fetch('/books')
-  .then(response => response.json())
-  .then(result => {
-    // TODO: Baue eine HTML Tabelle!
-    result.forEach(book => {
-      overViewTable.appendChild(renderDataRow(book));
-    });
-    // Listenelemente klickbar machen
-    let tableTR = [...overViewTable.children];
 
-    tableTR.forEach(element => {
-      element.addEventListener('click', (e) => {
-        // Das objekt aus der Liste finden das mit dem geklickten element übereinstimmt!
-        let thisBook = result.find(item => item.title === element.firstChild.textContent);
-        showSingleBook(thisBook);
+const clearAndRefillTableBody = () => {
+  ////   alle Bücher angezeigt bekommen -> Endpoint   ///
+  fetch('/books')
+    .then(response => response.json())
+    .then(result => {
+
+      tbody.innerHTML = '';
+
+
+      // TODO: Baue eine HTML Tabelle!
+      result.forEach(book => {
+        let row = renderDataRow(book);
+
+        overViewTable.appendChild(row);
+
+        row.addEventListener('click', (e) => {
+          // Das objekt aus der Liste finden das mit dem geklickten element übereinstimmt!
+          let thisBook = result.find(item => item.title === row.firstChild.textContent);
+          showSingleBook(thisBook);
+        });
       });
-    });
-  })
-  .catch(er => console.log(er));
+
+    })
+    .catch(er => console.log(er));
+};
+
+
+clearAndRefillTableBody();
 
 // erstellen einer TableRow mit Titel, Autor, inklusive edit und delete Button
 const renderDataRow = data => {
@@ -97,6 +107,7 @@ const renderButtonField = (usage, id) => {
 
 ////   Ein einzelnes Buch angezeigt bekommen   ////
 const showSingleBook = thisBook => {
+
   fetch('/books/' + thisBook.id)
     .then(response => response.json())
     // .then(response => response.text())
@@ -115,7 +126,8 @@ const showSingleBook = thisBook => {
       // Zurück zur Startseite
       back.addEventListener('click', () => {
         overView.style.display = 'block';
-        location.reload();
+        //location.reload();
+        clearAndRefillTableBody();
         detailView.style.display = 'none';
       });
     })
@@ -140,7 +152,8 @@ const deleteBook = e => {
     .then(response => response.json())
     .then(result => {
       console.log('Daten gelöscht!');
-      location.reload();
+      //location.reload();
+      clearAndRefillTableBody();
     })
     .catch(er => console.log(er));
 };
@@ -148,7 +161,8 @@ const deleteBook = e => {
 ////   ein Buch ändern   ////
 // Zurück zur Startseite Button in Edit View
 backedit.addEventListener('click', () => {
-  location.reload();
+  //location.reload();
+  clearAndRefillTableBody();
   overView.style.display = 'block';
   detailView.style.display = 'none';
   editView.style.display = 'none';
@@ -227,7 +241,8 @@ const addBook = () => {
 };
 // Zurück zur Startseite mit einem Reload der Seite!
 backAdd.addEventListener('click', () => {
-  location.reload();
+  //location.reload();
+  clearAndRefillTableBody();
   overView.style.display = 'block';
   addView.style.display = 'none';
 });

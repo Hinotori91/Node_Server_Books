@@ -14,9 +14,11 @@ const app = express(); // erstellt einen Server!
 const staticpath = path.join(__dirname, 'public'); // erstellt mir einen Pfad zu meiner Index.html
 
 let jsonPath = path.join(__dirname, 'json', "books.json");
+let idPath = path.join(__dirname, 'json', "lastid.json");
 let logPath = path.join(__dirname, 'json', "log.log");
 
 let timestamp = new Date();
+
 
 ///   ROUTINGS   ///
 // API ENDPOINTS! - sind die URLs die ich selbst definiere
@@ -32,10 +34,34 @@ app.get('/books', (req, res) => {     // /books ist der selbst definierte Endpoi
       logdata = 'Client IP-Adress: ' + req.ip + '\n  Date: ' + timestamp + '\n  Error: ' + error + '\n\n';
       console.log(error);
     } else {
-      console.log(req.socket.remoteAddress);
-      console.log(req.ip);
+      let booksList = JSON.parse(books);
+
+      // ?????????????????????????????????????????? //
+      // EINLESEN DER ID AUS SEPARATEM JSON FILE
+      // fs.readFile(idPath, (error, test) => {
+      //   if (error) {
+      //     console.log(error);
+      //   } else {
+
+      //     // let newID = booksList[booksList.length].id;
+      //     // let lastID = booksList[booksList.length];
+      //     let newID = JSON.stringify({ id: "TEST" });
+      //     fs.writeFile(idPath, newID, (err) => {
+      //       if (err) {
+      //         console.log(err);
+      //       } else {
+      //         // res.send(id);
+      //         res.send(newID);
+      //       }
+      //     });
+      //   }
+      // });
+
+
+
       logdata = 'Client IP-Adress: ' + req.ip + '\n  Date: ' + timestamp + '\n  Using: /books\n\n';
-      res.send(JSON.parse(books));
+      // res.send(JSON.parse(books));
+      res.send(booksList);
     }
 
     fs.appendFile(logPath, logdata, (err) => {
@@ -142,41 +168,63 @@ app.post('/books/add', (req, res) => {
       let books = JSON.parse(booksJSON);
 
       // letzte ID aus der Bücherliste auslesen und um 1 erhöhen!
-      let newID = 0;
-      newID = books[books.length - 1].id + 1;
+      // let newID = savedlastID + 1;
+      // newID = books[books.length - 1].id + 1;
 
 
-      // Daten-Objekt erstellen
-      obj = {
-        id: newID,
-        title: req.body.title,
-        author: req.body.author,
-        description: req.body.description,
-        isbn: req.body.isbn,
-      };
-
-      // Daten-Objekt in Bücherliste einfügen
-      books.push(obj);
-
-      logdata = 'Client IP-Adress: ' + req.ip + '\n  Date: ' + timestamp + '\n  Using: /books/add \n  Added new Book: ' + obj.title + ' von ' + obj.author + '\n\n';
-
-      // Neue Bücherliste in das JSON File schreiben lassen
-      let jsonBooks = JSON.stringify(books);
-      fs.writeFile(jsonPath, jsonBooks, (err) => {
-        if (err) {
-          console.log(err);
+      // ?????????????????????????????????????????? //
+      // EINLESEN DER ID AUS SEPARATEM JSON FILE
+      fs.readFile(idPath, (error, test) => {
+        if (error) {
+          console.log(error);
         } else {
-          res.send(obj);
+
+          let readID = JSON.parse(test);
+          let newID = readID.id + 1;
+          // Daten-Objekt erstellen
+          obj = {
+            id: newID,
+            title: req.body.title,
+            author: req.body.author,
+            description: req.body.description,
+            isbn: req.body.isbn,
+          };
+
+          // Daten-Objekt in Bücherliste einfügen
+          books.push(obj);
+
+          logdata = 'Client IP-Adress: ' + req.ip + '\n  Date: ' + timestamp + '\n  Using: /books/add \n  Added new Book: ' + obj.title + ' von ' + obj.author + '\n\n';
+
+          // Neue Bücherliste in das JSON File schreiben lassen
+          let jsonBooks = JSON.stringify(books);
+          fs.writeFile(jsonPath, jsonBooks, (err) => {
+            if (err) {
+              console.log(err);
+            } else {
+              res.send(obj);
+            }
+          });
+
+          let idForJSONFile = JSON.stringify({ id: obj.id });
+          fs.writeFile(idPath, idForJSONFile, (err) => {
+            if (err) {
+              console.log(err);
+            } else {
+              // res.send(id);
+              res.send(newID);
+            }
+          });
         }
+        fs.appendFile(logPath, logdata, (err) => {
+          if (err) throw err;
+          console.log('The file has been saved!');
+        });
+
       });
     }
-
-    fs.appendFile(logPath, logdata, (err) => {
-      if (err) throw err;
-      console.log('The file has been saved!');
-    });
   });
 });
+
 
 /////////   BUCH ENTFERNEN   /////////
 app.delete("/books/delete/:id", (req, res) => {
