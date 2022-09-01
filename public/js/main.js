@@ -82,11 +82,12 @@ const renderButtonField = (usage, id) => {
   const td = document.createElement('td');
   const btn = document.createElement('button');
   btn.setAttribute('data-bookid', id);
-  btn.textContent = usage == 'delete' ? 'löschen' : 'editieren';
-  // btn.innerHTML = usage == 'delete' ? "<img alt=\"Löschen\" src=\"../img/trash-can-regular.svg\">" : "<img alt=\"Bearbeiten\" src=\"../img/trash-can-regular.svg\">";
+  btn.setAttribute('id', 'edit-delete');
+  // btn.textContent = usage == 'delete' ? 'löschen' : 'editieren';
+  btn.innerHTML = usage == 'delete' ? '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">' : '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">';
 
-  if (btn.textContent == 'editieren') {
-    // if (btn.innerHTML == "<img alt=\"Bearbeiten\" src=\"../img/trash-can-regular.svg\">") {
+  // if (btn.textContent == 'editieren') {
+  if (btn.innerHTML == '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">') {
     btn.addEventListener('click', e => {
       e.stopPropagation();
       overView.style.display = 'none';
@@ -97,8 +98,8 @@ const renderButtonField = (usage, id) => {
         update(e);
       });
     });
-  } else if (btn.textContent == 'löschen') {
-    // } else if (btn.innerHTML == "<img alt=\"Löschen\" src=\"../img/trash-can-regular.svg\">") {
+    // } else if (btn.textContent == 'löschen') {
+  } else if (btn.innerHTML == '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">') {
     btn.addEventListener('click', e => {
       e.stopPropagation(); // EventListener erzeugt keine Kettenreaktion
       deleteBook(e);

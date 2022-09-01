@@ -9,7 +9,7 @@
 - [ ] beim klick auf "Abbrechen" sollten die Input inhalte gleich geleert werden
 
 # Nice to haves
-- [ ] "editieren" und "löschen" button als bleistift und mistkübel anzeigen, ohne text
+- [x] "editieren" und "löschen" button als bleistift und mistkübel anzeigen, ohne text
 - [x] highlight beim hovern über zeile
 - [ ] "editieren" und "löschen" button nur anzeigen wenn gehovered
 - [ ] borders bei table rows oben, nicht unten

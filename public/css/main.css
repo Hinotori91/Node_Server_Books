@@ -52,14 +52,25 @@ body {
 #initialView td {
   padding: 5px 0.5rem;
   border-bottom: 1px solid var(--linienColor);
+  cursor: pointer;
+}
+
+#edit-delete {
+  background-color: transparent;
+  cursor: pointer;
 }
 
 button {
   background-color: var(--buttonBackground);
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 
   padding: 0.3rem;
+}
+
+#addButton {
+  padding: 0.5rem;
 }
 
 button:hover {
@@ -103,4 +114,8 @@ textarea {
   border-radius: 5px;
   padding: 5px 0.5rem;
   margin: 5px;
+}
+
+img {
+  fill: var(--textColor)
 }
