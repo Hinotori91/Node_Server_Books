@@ -3,7 +3,9 @@
   --nichts: #BEA497;
   --linienColor: #A3836C;
   --buttonBackground: #7A634D;
+  --buttonBackgroundHover: #5e4c3c;
   --cardBackground: #4E4231;
+  --cardBackgroundHover: #3b3225;
   --backgroundColor: #231E16;
 }
 
@@ -27,7 +29,18 @@ body {
   border-radius: 15px;
   box-shadow: 1px 1px 90px black;
 
+  width: 1152px;
+  /* 1152x314 */
+
   padding: 1.5rem;
+}
+
+#initialView table {
+  width: 100%;
+}
+
+#initialView tbody>tr:hover {
+  background-color: var(--cardBackgroundHover);
 }
 
 #initialView th {
@@ -47,6 +60,10 @@ button {
   border-radius: 5px;
 
   padding: 0.3rem;
+}
+
+button:hover {
+  background-color: #A3836C;
 }
 
 #detailView div {

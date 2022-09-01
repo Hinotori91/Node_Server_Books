@@ -83,8 +83,10 @@ const renderButtonField = (usage, id) => {
   const btn = document.createElement('button');
   btn.setAttribute('data-bookid', id);
   btn.textContent = usage == 'delete' ? 'löschen' : 'editieren';
+  // btn.innerHTML = usage == 'delete' ? "<img alt=\"Löschen\" src=\"../img/trash-can-regular.svg\">" : "<img alt=\"Bearbeiten\" src=\"../img/trash-can-regular.svg\">";
 
   if (btn.textContent == 'editieren') {
+    // if (btn.innerHTML == "<img alt=\"Bearbeiten\" src=\"../img/trash-can-regular.svg\">") {
     btn.addEventListener('click', e => {
       e.stopPropagation();
       overView.style.display = 'none';
@@ -96,6 +98,7 @@ const renderButtonField = (usage, id) => {
       });
     });
   } else if (btn.textContent == 'löschen') {
+    // } else if (btn.innerHTML == "<img alt=\"Löschen\" src=\"../img/trash-can-regular.svg\">") {
     btn.addEventListener('click', e => {
       e.stopPropagation(); // EventListener erzeugt keine Kettenreaktion
       deleteBook(e);
@@ -110,7 +113,6 @@ const showSingleBook = thisBook => {
 
   fetch('/books/' + thisBook.id)
     .then(response => response.json())
-    // .then(response => response.text())
     .then(result => {
 
       // ausblenden der "Startseite" und einblenden der Detail-Ansicht!
@@ -126,7 +128,6 @@ const showSingleBook = thisBook => {
       // Zurück zur Startseite
       back.addEventListener('click', () => {
         overView.style.display = 'block';
-        //location.reload();
         clearAndRefillTableBody();
         detailView.style.display = 'none';
       });
@@ -137,10 +138,6 @@ const showSingleBook = thisBook => {
 
 ////   ein Buch löschen   ////
 const deleteBook = e => {
-  // von löschen-button-target einmal zurück mit parentNode zu td und noch einmal zu tr, davon das dritte element (edit-button) davon das hinterlegte dataset mit der bookid! 
-  // => suche noch nach einer anderen Möglichkeit!!
-  // let findid = e.target.parentNode.parentNode.children[2].firstChild.dataset.bookid;
-
   let findid = e.target.dataset.bookid;
 
   fetch('/books/delete/' + e.target.dataset.bookid, {
@@ -152,7 +149,6 @@ const deleteBook = e => {
     .then(response => response.json())
     .then(result => {
       console.log('Daten gelöscht!');
-      //location.reload();
       clearAndRefillTableBody();
     })
     .catch(er => console.log(er));
@@ -161,7 +157,6 @@ const deleteBook = e => {
 ////   ein Buch ändern   ////
 // Zurück zur Startseite Button in Edit View
 backedit.addEventListener('click', () => {
-  //location.reload();
   clearAndRefillTableBody();
   overView.style.display = 'block';
   detailView.style.display = 'none';
@@ -200,7 +195,7 @@ const update = e => {
     .then(result => {
 
       console.log('Das Buch wurde geändert');
-      location.reload();
+      clearAndRefillTableBody();
       addView.style.display = 'none';
       overView.style.display = 'block';
     })
@@ -209,8 +204,6 @@ const update = e => {
 
 
 ////   ein Buch hinzufügen   ////
-// INFO: RELOAD FUNKTIONIERT NICHT! JSON PARSE PROBLEM?
-// wechsel der View Ansicht
 btnAdd.addEventListener('click', (e) => {
   overView.style.display = 'none';
   addView.style.display = 'block';
@@ -218,6 +211,8 @@ btnAdd.addEventListener('click', (e) => {
 // Function Call
 saveadd.addEventListener('click', () => {
   addBook();
+  addView.style.display = 'none';
+  overView.style.display = 'block';
 });
 
 const addBook = () => {
@@ -236,13 +231,12 @@ const addBook = () => {
     .then(response => response.json())
     .then(result => {
       console.log('Das Buch wurde hinzugefügt');
+      clearAndRefillTableBody();
     })
     .catch(er => console.log(er));
 };
-// Zurück zur Startseite mit einem Reload der Seite!
+// Zurück zur Startseite!
 backAdd.addEventListener('click', () => {
-  //location.reload();
-  clearAndRefillTableBody();
-  overView.style.display = 'block';
   addView.style.display = 'none';
+  overView.style.display = 'block';
 });
