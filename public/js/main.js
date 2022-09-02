@@ -76,48 +76,57 @@ const renderDataRow = data => {
   const tr = document.createElement('tr');
   tr.appendChild(renderDataField(data.title));
   tr.appendChild(renderDataField(data.author));
-  tr.appendChild(renderButtonField('edit', data.id));
-  tr.appendChild(renderButtonField('delete', data.id));
+  tr.appendChild(renderEditButtonField(data.id));
+  tr.appendChild(renderDeleteButtonField(data.id));
   return tr;
 };
+
 // erstellen einer TableData
 const renderDataField = data => {
   const td = document.createElement('td');
   td.textContent = data;
   return td;
 };
-// Erstellen der Buttons für delete und edit mit dem jeweiligen Function-Call
-const renderButtonField = (usage, id) => {
+
+const renderEditButtonField = (id) => {
   const td = document.createElement('td');
   const btn = document.createElement('button');
   btn.setAttribute('data-bookid', id);
-  btn.setAttribute('id', 'edit-delete');
-  btn.textContent = usage == 'delete' ? 'löschen' : 'editieren';
-  // btn.innerHTML = usage == 'delete' ? '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">' : '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">';
+  btn.setAttribute('class', 'edit-delete');
 
-  if (btn.textContent == 'editieren') {
-    // if (btn.innerHTML == '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">') {
-    btn.addEventListener('click', e => {
-      console.log('BLAH');
-      e.stopPropagation();
-      overView.style.display = 'none';
-      detailView.style.display = 'none';
-      editView.style.display = 'block';
-      fillInEditView(e);
-      save.addEventListener('click', () => {
-        update(e);
-        clearAndRefillTableBody();
-        editView.style.display = 'none';
-        overView.style.display = 'block';
-      });
+  btn.textContent = 'editieren';
+  // btn.innerHTML = '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">';
+  btn.addEventListener('click', e => {
+    console.log('BLAH');
+    e.stopPropagation();
+    overView.style.display = 'none';
+    detailView.style.display = 'none';
+    editView.style.display = 'block';
+    fillInEditView(e);
+    save.addEventListener('click', () => {
+      update(e);
+      clearAndRefillTableBody();
+      editView.style.display = 'none';
+      overView.style.display = 'block';
     });
-  } else if (btn.textContent == 'löschen') {
-    // } else if (btn.innerHTML == '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">') {
-    btn.addEventListener('click', e => {
-      e.stopPropagation(); // EventListener erzeugt keine Kettenreaktion
-      deleteBook(e);
-    });
-  };
+  });
+  td.appendChild(btn);
+  return td;
+};
+
+const renderDeleteButtonField = (id) => {
+  const td = document.createElement('td');
+  const btn = document.createElement('button');
+  btn.setAttribute('data-bookid', id);
+  btn.setAttribute('class', 'edit-delete');
+
+  btn.textContent = 'löschen';
+  // btn.innerHTML = '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">'
+
+  btn.addEventListener('click', e => {
+    e.stopPropagation(); // EventListener erzeugt keine Kettenreaktion
+    deleteBook(e);
+  });
   td.appendChild(btn);
   return td;
 };

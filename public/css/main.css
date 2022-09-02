@@ -55,7 +55,7 @@ body {
   cursor: pointer;
 }
 
-#edit-delete {
+.edit-delete {
   background-color: transparent;
   cursor: pointer;
 }
