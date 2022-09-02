@@ -87,6 +87,10 @@ button:hover {
   margin: 10px 0;
 }
 
+#detailView p {
+  margin-bottom: 1rem;
+}
+
 #detailView button {
   margin: 10px 0;
 }

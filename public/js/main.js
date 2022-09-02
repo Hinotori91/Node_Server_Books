@@ -32,6 +32,15 @@ let newDescription = $('#newDescription');
 let tbody = $('#tbody');
 
 
+// PURGE FUNCTION //
+// const removeTags = (str) => {
+//   if ((str === null) || (str === "")) return false;
+//   else {
+//     str = str.toString();
+//     return str.replace(/(<([^>]+)>)/ig, '');
+//   }
+// };
+
 
 const clearAndRefillTableBody = () => {
   ////   alle Bücher angezeigt bekommen -> Endpoint   ///
@@ -83,12 +92,13 @@ const renderButtonField = (usage, id) => {
   const btn = document.createElement('button');
   btn.setAttribute('data-bookid', id);
   btn.setAttribute('id', 'edit-delete');
-  // btn.textContent = usage == 'delete' ? 'löschen' : 'editieren';
-  btn.innerHTML = usage == 'delete' ? '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">' : '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">';
+  btn.textContent = usage == 'delete' ? 'löschen' : 'editieren';
+  // btn.innerHTML = usage == 'delete' ? '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">' : '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">';
 
-  // if (btn.textContent == 'editieren') {
-  if (btn.innerHTML == '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">') {
+  if (btn.textContent == 'editieren') {
+    // if (btn.innerHTML == '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">') {
     btn.addEventListener('click', e => {
+      console.log('BLAH');
       e.stopPropagation();
       overView.style.display = 'none';
       detailView.style.display = 'none';
@@ -96,10 +106,13 @@ const renderButtonField = (usage, id) => {
       fillInEditView(e);
       save.addEventListener('click', () => {
         update(e);
+        clearAndRefillTableBody();
+        editView.style.display = 'none';
+        overView.style.display = 'block';
       });
     });
-    // } else if (btn.textContent == 'löschen') {
-  } else if (btn.innerHTML == '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">') {
+  } else if (btn.textContent == 'löschen') {
+    // } else if (btn.innerHTML == '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">') {
     btn.addEventListener('click', e => {
       e.stopPropagation(); // EventListener erzeugt keine Kettenreaktion
       deleteBook(e);
@@ -180,6 +193,11 @@ const fillInEditView = e => {
 
 ////   Ein Buch überarbeiten   ///
 const update = e => {
+  // removeTags(titleEdit.value);
+  // removeTags(authorEdit.value);
+  // removeTags(textEdit.value);
+  // removeTags(isbnEdit.value);
+
   fetch('/books/update/' + e.target.dataset.bookid, {
     method: 'PATCH',
     body: JSON.stringify({

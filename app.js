@@ -36,28 +36,6 @@ app.get('/books', (req, res) => {     // /books ist der selbst definierte Endpoi
     } else {
       let booksList = JSON.parse(books);
 
-      // ?????????????????????????????????????????? //
-      // EINLESEN DER ID AUS SEPARATEM JSON FILE
-      // fs.readFile(idPath, (error, test) => {
-      //   if (error) {
-      //     console.log(error);
-      //   } else {
-
-      //     // let newID = booksList[booksList.length].id;
-      //     // let lastID = booksList[booksList.length];
-      //     let newID = JSON.stringify({ id: "TEST" });
-      //     fs.writeFile(idPath, newID, (err) => {
-      //       if (err) {
-      //         console.log(err);
-      //       } else {
-      //         // res.send(id);
-      //         res.send(newID);
-      //       }
-      //     });
-      //   }
-      // });
-
-
 
       logdata = 'Client IP-Adress: ' + req.ip + '\n  Date: ' + timestamp + '\n  Using: /books\n\n';
       // res.send(JSON.parse(books));
@@ -122,19 +100,6 @@ app.patch('/books/update/:id', (req, res) => {
       books[obj].isbn = req.body.isbn;
 
       logdata = 'Client IP-Adress: ' + req.ip + '\n  Date: ' + timestamp + '\n  Using: /books/update/' + books[obj].id + '\n  changing in: ' + [req.body.title, books[obj].author] + '\n\n';
-
-      // Bearbeitete Bücherliste in JSON File schreiben lassen!
-
-      // PURGE FUNKTION - zum überprüfen ob die eingaben Valide sind!
-      // function purge () {
-      //   req = [];
-      //   foreach($_POST as $key => $value){
-      //     $result[$key] = stripslashes(strip_tags(trim($value)));
-      //   }
-      //   return $result;
-      // }
-      // print_r(purge());
-
 
 
       let jsonBooks = JSON.stringify(books);
