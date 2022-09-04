@@ -11,7 +11,7 @@ const back = $('#backBtn');
 const backedit = $('#backBtn2');
 const backAdd = $('#backBtnAdd');
 
-const save = $('#save');
+const saveEdit = $('#save');
 const saveadd = $('#saveAdd');
 
 let titleContent = $("#titleContent");
@@ -40,6 +40,8 @@ let tbody = $('#tbody');
 //     return str.replace(/(<([^>]+)>)/ig, '');
 //   }
 // };
+
+let editId;
 
 
 const clearAndRefillTableBody = () => {
@@ -90,29 +92,25 @@ const renderDataField = data => {
 
 const renderEditButtonField = (id) => {
   const td = document.createElement('td');
-  const btn = document.createElement('button');
-  btn.setAttribute('data-bookid', id);
-  btn.setAttribute('class', 'edit-delete');
+  const editBtn = document.createElement('button');
+  editBtn.setAttribute('data-bookid', id);
+  editBtn.setAttribute('class', 'edit-delete');
 
-  btn.textContent = '';
+  editBtn.textContent = '';
   // btn.textContent = 'editieren';
   // btn.innerHTML = '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">';
-  btn.style.backgroundImage = "url('./img/edit.svg')";
+  editBtn.style.backgroundImage = "url('./img/edit.svg')";
 
-  btn.addEventListener('click', e => {
+  editBtn.addEventListener('click', e => {
     console.log('BLAH');
     e.stopPropagation();
     fillInEditView(e);
+    editId = e.target.dataset.bookid;
     overView.style.display = 'none';
     editView.style.display = 'block';
-    save.addEventListener('click', () => {
-      update(e);
-      clearAndRefillTableBody();
-      editView.style.display = 'none';
-      overView.style.display = 'block';
-    });
+
   });
-  td.appendChild(btn);
+  td.appendChild(editBtn);
   return td;
 };
 
@@ -173,7 +171,8 @@ const deleteBook = e => {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ findid })
   })
-    .then(response => response.json())
+    // text() statt json(), da kein json kommt
+    .then(response => response.text())
     .then(result => {
       console.log('Daten gelöscht!');
       clearAndRefillTableBody();
@@ -187,6 +186,14 @@ backedit.addEventListener('click', () => {
   clearAndRefillTableBody();
   overView.style.display = 'block';
   editView.style.display = 'none';
+});
+
+// Speichert die aktuellen Änderungen und geht zurück zur Startseite
+saveEdit.addEventListener('click', () => {
+  update();
+  clearAndRefillTableBody();
+  editView.style.display = 'none';
+  overView.style.display = 'block';
 });
 
 // Übernimmt die Daten aus dem Buchobjekt und füllt sie im Formular automatisch aus!
@@ -204,13 +211,15 @@ const fillInEditView = e => {
 };
 
 ////   Ein Buch überarbeiten   ///
-const update = e => {
+const update = () => {
   // removeTags(titleEdit.value);
   // removeTags(authorEdit.value);
   // removeTags(textEdit.value);
   // removeTags(isbnEdit.value);
 
-  fetch('/books/update/' + e.target.dataset.bookid, {
+  console.debug('editId: ' + editId);
+
+  fetch('/books/update/' + editId, {
     method: 'PATCH',
     body: JSON.stringify({
       title: titleEdit.value,
@@ -224,7 +233,6 @@ const update = e => {
   })
     .then(response => response.json())
     .then(result => {
-
       console.log('Das Buch wurde geändert');
       clearAndRefillTableBody();
     })

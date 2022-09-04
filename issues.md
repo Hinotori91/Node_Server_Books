@@ -7,6 +7,8 @@
 - [x] "Startseite" umbenennen auf "Abbrechen"
 - [x] "Speichern" sollte immer auf die Startseite leiten
 - [ ] beim klick auf "Abbrechen" sollten die Input inhalte gleich geleert werden
+- [ ] 404 page doesnt work
+
 
 # Nice to haves
 - [x] "editieren" und "löschen" button als bleistift und mistkübel anzeigen, ohne text

@@ -21,13 +21,19 @@ body {
   display: flex;
   justify-content: center;
 
-  margin: 2rem;
+  height: 100vh;
+  width: 100vw;
 }
 
 .card {
   background-color: var(--cardBackground);
   border-radius: 15px;
   box-shadow: 1px 1px 90px black;
+  margin: 2rem;
+  height: min-content;
+  min-height: 30em;
+  max-height: calc(100% - 4rem);
+  overflow-y: scroll;
 
   width: 1152px;
   /* 1152x314 */
