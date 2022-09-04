@@ -7,6 +7,7 @@ const exp = require('constants');
 const express = require("express");
 const { json } = require('express');
 const { log } = require('console');
+const { AsyncLocalStorage } = require('async_hooks');
 const app = express(); // erstellt einen Server!
 
 
@@ -35,7 +36,6 @@ app.get('/books', (req, res) => {     // /books ist der selbst definierte Endpoi
       console.log(error);
     } else {
       let booksList = JSON.parse(books);
-
 
       logdata = 'Client IP-Adress: ' + req.ip + '\n  Date: ' + timestamp + '\n  Using: /books\n\n';
       // res.send(JSON.parse(books));
@@ -94,6 +94,10 @@ app.patch('/books/update/:id', (req, res) => {
       // Richtiges Objekt aus der Bücherliste finden und die übergebenen Parameter zuweisen!
       let idfind = req.params.id;
       let obj = books.findIndex(item => item.id === parseInt(idfind));
+
+      console.log(idfind);
+      console.log(books[obj]);
+
       books[obj].title = req.body.title;
       books[obj].author = req.body.author;
       books[obj].description = req.body.description;
@@ -131,10 +135,6 @@ app.post('/books/add', (req, res) => {
       console.log(error);
     } else {
       let books = JSON.parse(booksJSON);
-
-      // letzte ID aus der Bücherliste auslesen und um 1 erhöhen!
-      // let newID = savedlastID + 1;
-      // newID = books[books.length - 1].id + 1;
 
 
       // ?????????????????????????????????????????? //
@@ -176,7 +176,8 @@ app.post('/books/add', (req, res) => {
               console.log(err);
             } else {
               // res.send(id);
-              res.send(newID);
+              // res.send(newID);
+              console.log('neue id wurde gesetzt');
             }
           });
         }

@@ -94,15 +94,17 @@ const renderEditButtonField = (id) => {
   btn.setAttribute('data-bookid', id);
   btn.setAttribute('class', 'edit-delete');
 
-  btn.textContent = 'editieren';
+  btn.textContent = '';
+  // btn.textContent = 'editieren';
   // btn.innerHTML = '<img alt=\"Bearbeiten\" src=\"./img/edit.svg\" width=\"20px\">';
+  btn.style.backgroundImage = "url('./img/edit.svg')";
+
   btn.addEventListener('click', e => {
     console.log('BLAH');
     e.stopPropagation();
-    overView.style.display = 'none';
-    detailView.style.display = 'none';
-    editView.style.display = 'block';
     fillInEditView(e);
+    overView.style.display = 'none';
+    editView.style.display = 'block';
     save.addEventListener('click', () => {
       update(e);
       clearAndRefillTableBody();
@@ -120,8 +122,10 @@ const renderDeleteButtonField = (id) => {
   btn.setAttribute('data-bookid', id);
   btn.setAttribute('class', 'edit-delete');
 
-  btn.textContent = 'löschen';
-  // btn.innerHTML = '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">'
+  btn.textContent = '';
+  // btn.textContent = 'löschen';
+  // btn.innerHTML = '<img alt=\"Löschen\" src=\"./img/delete.svg\" width=\"20px\">';
+  btn.style.backgroundImage = "url('./img/delete.svg')";
 
   btn.addEventListener('click', e => {
     e.stopPropagation(); // EventListener erzeugt keine Kettenreaktion
@@ -150,8 +154,8 @@ const showSingleBook = thisBook => {
 
       // Zurück zur Startseite
       back.addEventListener('click', () => {
-        overView.style.display = 'block';
         clearAndRefillTableBody();
+        overView.style.display = 'block';
         detailView.style.display = 'none';
       });
     })
@@ -182,7 +186,6 @@ const deleteBook = e => {
 backedit.addEventListener('click', () => {
   clearAndRefillTableBody();
   overView.style.display = 'block';
-  detailView.style.display = 'none';
   editView.style.display = 'none';
 });
 
@@ -224,8 +227,6 @@ const update = e => {
 
       console.log('Das Buch wurde geändert');
       clearAndRefillTableBody();
-      addView.style.display = 'none';
-      overView.style.display = 'block';
     })
     .catch(er => console.log(er));
 };

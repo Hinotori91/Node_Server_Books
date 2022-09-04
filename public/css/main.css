@@ -58,6 +58,10 @@ body {
 .edit-delete {
   background-color: transparent;
   cursor: pointer;
+
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
 }
 
 button {
