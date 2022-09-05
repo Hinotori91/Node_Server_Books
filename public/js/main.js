@@ -80,6 +80,7 @@ const renderDataRow = data => {
   tr.appendChild(renderDataField(data.author));
   tr.appendChild(renderEditButtonField(data.id));
   tr.appendChild(renderDeleteButtonField(data.id));
+  tr.classList.add('lineDown');
   return tr;
 };
 

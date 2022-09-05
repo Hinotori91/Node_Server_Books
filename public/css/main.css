@@ -42,7 +42,13 @@ body {
 }
 
 #initialView table {
+  border-collapse: collapse;
   width: 100%;
+}
+
+.lineDown {
+  border-bottom: 1px solid var(--linienColor);
+
 }
 
 #initialView tbody>tr:hover {
@@ -57,8 +63,22 @@ body {
 
 #initialView td {
   padding: 5px 0.5rem;
-  border-bottom: 1px solid var(--linienColor);
+  /* border-bottom: 1px solid var(--linienColor); */
   cursor: pointer;
+
+  /* text-overflow: ellipsis " [...] "; */
+  /* text-overflow: ellipsis; */
+  /* width: 200px; */
+  width: 600px;
+}
+
+#initialView td:first-child {
+
+  overflow: hidden;
+  display: inline-block;
+
+  text-overflow: ellipsis " [..]";
+  white-space: nowrap;
 }
 
 .edit-delete {

@@ -230,6 +230,24 @@ app.listen(PORT, () => console.log(`Listening on port ${PORT} ... Press Ctrl * C
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /////////   TESTING   /////////
 const testUpdateBook = () => {
   logText("testing updating books");
@@ -290,7 +308,6 @@ const testAddBook = () => {
 };
 
 const testDelete = () => {
-
   logText("testing delete function");
   deleteBook(5);
   deleteBook(5); // sollte fehl schlagen
@@ -299,7 +316,6 @@ const testDelete = () => {
   deleteBook(2);
   deleteBook(1);
   deleteBook(3);  // sollte fehl schlagen
-
 
   deleteBook(null); // sollte fehl schlagen
   deleteBook(-1); // sollte fehl schlagen
