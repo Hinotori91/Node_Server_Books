@@ -1,1 +1,37 @@
-[{"id":10,"title":"super buch 4","author":"super autor 4","description":"immer noch mega 4","isbn":"4224"},{"id":11,"title":"super buch 4super buch 4super buch 4super buch 4","author":"super autor 4","description":"immer noch mega 4","isbn":"4224"}]
+[
+  {
+    "id": 1,
+    "title": "Wie ich ein Fisch wurde...!",
+    "author": "Frederik von Furchensumpf",
+    "description": "Ein wunderbares Buch für demonstrative Zwecke!",
+    "isbn": "123414264839"
+  },
+  {
+    "id": 2,
+    "title": "Das etwas andere Märchenbuch",
+    "author": "Franziska Gruber",
+    "description": "Es war ein mal vor seeehr langer Zeit...",
+    "isbn": "123414264839"
+  },
+  {
+    "id": 3,
+    "title": "Das SCHAF auf der WEIDE!!",
+    "author": "Franz",
+    "description": "MÄH !!",
+    "isbn": "123456789012"
+  },
+  {
+    "id": 4,
+    "title": "Die KUH auf der WEIDE",
+    "author": "MUH",
+    "description": "MUH",
+    "isbn": "457887737373"
+  },
+  {
+    "id": 5,
+    "title": "ICH WILL NICHT MEHR",
+    "author": "BÄH",
+    "description": "ICH WILL NICHT MEHR!!!!",
+    "isbn": "123456789012"
+  }
+]
